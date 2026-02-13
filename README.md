@@ -6,6 +6,29 @@
 
 This repository contains Wi-Fi network scanning and analysis results using Airodump-ng and Kismet tools, plus a network security analysis tool.
 
+## 🚀 Quick Start / البدء السريع
+
+### Run Security Analysis / تشغيل تحليل الأمان
+
+```bash
+# Install Python 3 if not already installed / ثبّت Python 3 إذا لم يكن مثبتاً
+python3 --version
+
+# Run the security analyzer / شغّل محلل الأمان
+python3 network_security_analyzer.py ./-01.csv
+
+# The tool will generate a detailed security report
+# ستنشئ الأداة تقريراً أمنياً مفصلاً
+```
+
+### What You'll Get / ما ستحصل عليه
+
+- ✅ تحليل شامل للتشفير وأمان الشبكة / Comprehensive encryption and network security analysis  
+- ✅ كشف نقاط الضعف المحتملة / Detection of potential vulnerabilities  
+- ✅ تقرير مفصل بالعربية والإنجليزية / Detailed bilingual report (Arabic/English)  
+- ✅ توصيات أمنية قابلة للتنفيذ / Actionable security recommendations
+
+
 ## 🔒 اختبار أمان الشبكة / Network Security Testing
 
 ### استخدام أداة تحليل الأمان / Using the Security Analyzer
@@ -78,6 +101,14 @@ EXECUTIVE SUMMARY / الملخص التنفيذي
 For a detailed and comprehensive analysis of all files in Arabic, please see:
 
 👉 **[ANALYSIS_AR.md](ANALYSIS_AR.md)**
+
+### 🛡️ دليل اختبار الأمان / Security Testing Guide
+
+للحصول على دليل كامل حول كيفية استخدام أداة تحليل الأمان، يرجى الاطلاع على:
+
+For a complete guide on how to use the security analysis tool, please see:
+
+👉 **[SECURITY_TESTING.md](SECURITY_TESTING.md)**
 
 ## 📊 معلومات الفحص / Scan Information
 
